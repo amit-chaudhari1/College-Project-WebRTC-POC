@@ -1,0 +1,19 @@
+.chatApplication{
+    background-color: white;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.chatBox{
+    background-color: beige;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}

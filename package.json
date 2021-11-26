@@ -1,0 +1,53 @@
+{
+  "name": "webrtc_chatapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ionic/react": "^5.0.7",
+    "@tensorflow/tfjs": "^1.7.1",
+    "cra-template": "1.0.2",
+    "ionicons": "^5.0.1",
+    "node-sass": "^4.13.1",
+    "re-resizable": "^6.3.2",
+    "react": "^16.13.0",
+    "react-autosize-textarea": "^7.0.0",
+    "websocket-extensions": "^0.1.4",
+    "elliptic": "^6.5.3",
+    "lodash": "^4.17.19",
+    "react-dom": "^16.13.0",
+    "react-ionic": "^0.0.0",
+    "react-ionicons": "^3.1.4",
+    "react-router": "^5.1.2",
+    "react-router-config": "^5.1.1",
+    "react-scripts": "3.4.0",
+    "react-textarea-autosize": "^7.1.2",
+    "react-transition-group": "^4.3.0",
+    "streamsaver": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "chatApp_websocket": "node websocket_server"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "history": "^4.10.1",
+    "react-router-dom": "^5.2.0"
+  }
+}

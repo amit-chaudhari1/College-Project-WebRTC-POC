@@ -1,0 +1,50 @@
+.CallWindow{
+  position: absolute;
+  z-index: 3000;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
+.otherStreamsContainer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #191919;
+}
+.myStreamContainer{
+  width: 150px;
+  height: 90px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #dfdfdf;
+}
+.call-content{
+  cursor: grab;
+}
+.otherStreamsContainer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #61dafb;
+}
+.otherStream{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 5000;
+}
+.myStream{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+}
+

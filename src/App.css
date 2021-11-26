@@ -1,0 +1,119 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  background-color: #34495e;
+}
+.MyName{
+  margin-left: 2em;
+  position: absolute;
+  z-index: 190;
+  color: #FFFFFF
+}
+
+.MyName a {
+  color: currentColor;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fade-appear {
+  opacity: 0;
+}
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms linear ;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+.slide-enter-active {
+  transform: translate3d(0, 0, 0);
+  transition: all 600ms;
+}
+.slide-exit {
+  transform: translate3d(0, 0, 0);
+}
+.slide-exit-active {
+  transform: translate3d(-100%, 0, 0);
+  transition: all 600ms;
+}
+
+.pageSlider-exit > .page {
+  z-index: 1;
+}
+.pageSlider-enter > .page {
+  z-index: 10;
+}
+
+.pageSlider-enter.left > .page {
+  transform: translate3d(100%, 0, 0);
+}
+.pageSlider-enter.right > .page {
+  transform: translate3d(-100%, 0, 0);
+}
+.pageSlider-exit.left > .page {
+  transform: translate3d(-100%, 0, 0);
+}
+
+.pageSlider-exit.right > .page {
+  transform: translate3d(100%, 0, 0);
+}
+.pageSlider-enter.down > .page {
+  transform: translate3d(0, -100%, 0);
+}
+.pageSlider-exit.down > .page {
+  transform: translate3d(0, 100%, 0);
+}
+.pageSlider-enter.up > .page {
+  transform: translate3d(0, 100%, 0);
+}
+.pageSlider-exit.up > .page {
+  transform: translate3d(0, -100%, 0);
+}
+.pageSlider-enter.pageSlider-enter-active > .page {
+  transform: translate3d(0, 0, 0);
+
+  transition: all 800ms ease-in-out;
+}

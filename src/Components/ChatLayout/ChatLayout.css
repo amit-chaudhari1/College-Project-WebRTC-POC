@@ -1,0 +1,63 @@
+.chatLayout {
+  float: right;
+  position: relative;
+  background-color: #282c34;
+  width: 70%;
+  height: 100%;
+}
+
+.footer-chat {
+  position: relative;
+}
+
+.timeObject {
+  float: right;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  white-space: pre-wrap;
+}
+
+.other-message {
+  background: gray;
+  color: #FFFFFF;
+}
+
+.my-message {
+  background: darkslategray;
+  color: #FFFFFF;
+}
+
+.time {
+  color: #dfdfdf;
+  float: right;
+  font-size: small;
+}
+
+.message-input {
+  position: relative;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background: #FFFFFF;
+  resize: none;
+  padding-left: 10px;
+}
+
+#files {
+  display: none;
+  z-index: -20;
+}
+
+.button-wrapper {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=ChatLayout.css.map */

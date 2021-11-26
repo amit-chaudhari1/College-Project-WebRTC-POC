@@ -1,0 +1,23 @@
+.userLayout {
+  float: left;
+  position: relative;
+  background-color: red;
+  height: 100%;
+  width: 30%;
+}
+
+.avatar-user {
+  position: relative;
+  background-color: red;
+}
+
+.first-digit-username {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=UserLayout.css.map */
